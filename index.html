@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oikOS — The OS for your AI.</title>
+    <meta name="description" content="A sovereign AI operating system. Local-first. Identity-persistent. Adversarially hardened. Your data never leaves your machine.">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border-radius: 0;
+        }
+
+        body {
+            background: #0A0A0A;
+            color: #E0E0E0;
+            font-family: 'Source Sans 3', sans-serif;
+            font-weight: 400;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 80px 24px 60px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 180px;
+            height: auto;
+            margin-bottom: 32px;
+        }
+
+        @media (min-width: 640px) {
+            .logo {
+                width: 240px;
+            }
+        }
+
+        .wordmark {
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 700;
+            font-size: 3rem;
+            color: #E0E0E0;
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+        }
+
+        .tagline {
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 500;
+            font-size: 1.25rem;
+            color: #D4A017;
+            margin-bottom: 48px;
+        }
+
+        .value-prop {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #B0B0B0;
+            margin-bottom: 48px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: center;
+            margin-bottom: 64px;
+        }
+
+        @media (min-width: 480px) {
+            .buttons {
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 32px;
+            font-family: 'Source Sans 3', sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
+            border: 1px solid;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .btn-primary {
+            background: #D4A017;
+            color: #0A0A0A;
+            border-color: #D4A017;
+        }
+
+        .btn-primary:hover {
+            background: #E8B52A;
+            border-color: #E8B52A;
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: #E0E0E0;
+            border-color: #333;
+        }
+
+        .btn-secondary:hover {
+            background: #1A1A1A;
+            border-color: #555;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+            margin-bottom: 80px;
+        }
+
+        @media (min-width: 640px) {
+            .features {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        .feature {
+            border: 1px solid #1A1A1A;
+            padding: 32px 24px;
+            text-align: left;
+        }
+
+        .feature h3 {
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            color: #E0E0E0;
+            margin-bottom: 12px;
+        }
+
+        .feature p {
+            font-size: 0.9rem;
+            color: #808080;
+            line-height: 1.6;
+        }
+
+        footer {
+            border-top: 1px solid #1A1A1A;
+            padding-top: 32px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 0.85rem;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        footer a {
+            color: #D4A017;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="oikos_mark_neon_v1_1024.png" alt="oikOS" class="logo">
+
+        <h1 class="wordmark">oikOS</h1>
+        <p class="tagline">The OS for your AI.</p>
+
+        <p class="value-prop">
+            A sovereign AI operating system. Local-first. Identity-persistent.
+            Adversarially hardened. 632 tests. 10-probe gauntlet. Open-source core.
+            Your data never leaves your machine.
+        </p>
+
+        <div class="buttons">
+            <a href="https://github.com/Pachacutie" class="btn btn-secondary">Free Skills on GitHub</a>
+            <a href="#" class="btn btn-primary">Sovereign Kernel on Gumroad</a>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>Identity that persists</h3>
+                <p>Four structured files define who your AI is. They load first, every session, with a reserved budget that search results can never invade.</p>
+            </div>
+            <div class="feature">
+                <h3>Memory that's architecture, not storage</h3>
+                <p>Four tiers with differentiated persistence. Your AI's mission doesn't compete with yesterday's notes for context space.</p>
+            </div>
+            <div class="feature">
+                <h3>Security that's tested, not promised</h3>
+                <p>A 10-probe adversarial gauntlet runs on every build. Prompt injection, identity theft, data exfiltration — tested and blocked.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Built by <a href="https://github.com/Pachacutie">Pachacutie</a>.</p>
+            <p>Intelligence is cheap. Context is expensive. Build for context.</p>
+        </footer>
+    </div>
+</body>
+</html>
